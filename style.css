@@ -47,7 +47,6 @@ body {
     height: 400px;
     background: url(https://archsovet.msk.ru/image/uploader/image/meganom-skycraper-news-architecture-residential-new-york-usa_dezeen_hero-b.jpg) bottom no-repeat;
     background-size: cover;
-    
     }
 
     footer {
@@ -84,8 +83,22 @@ body {
     margin: 0 auto 32px;
     padding: 6px 15px;
     border-bottom: 1px solid rgb(128, 128, 128);
+    background-color: aquamarine;
     }
+    
+    .title::after {
+        content: "New";
+        position: absolute;
+        right: 450px;
+     }
 
+   article::nith-child h2:befor {
+   content: "New";
+   color: #ff0000;
+   padding-right: 5px;
+   }
+   
+    
     article a: :hover {
     color: #0085a1;
     }
